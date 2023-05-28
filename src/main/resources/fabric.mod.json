@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dstathud",
+  "version": "${version}",
+
+  "name": "DStatHud",
+  "description": "Fabric mod that shows download and upload speed in F3 menu",
+  "authors": [
+    "FlorianMichael/EnZaXD"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FlorianMichael/",
+    "sources": "https://github.com/FlorianMichael/DStatHud",
+    "issues": "https://github.com/FlorianMichael/DStatHud/issues"
+  },
+
+  "license": "GPL-v3",
+  "icon": "assets/dstathud/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "dstathud.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}

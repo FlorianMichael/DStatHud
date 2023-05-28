@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.florianmichael.dstathud.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinDebugHud"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinClientConnection"
+  ]
+}
